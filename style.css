@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    background-color: #469165;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 5px;
+
+}
+header{
+}
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+nav{
+    width: 85%;
+    max-width: 1360;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    padding-top: 16px;
+
+}
+nav .menu{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    list-style: none;
+}
+nav .menu a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
