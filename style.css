@@ -42,3 +42,77 @@ nav .menu a{
     color: #000000;
     font-weight: 500;
 }
+.banner-container{
+    width: 100%;
+    /* max-width: 1600px; */
+    height: 674px;
+    border: 1px solid black;
+    background-image: url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-container .banner-info{
+    width: 85%;
+    max-width: 1360px;
+    text-align: center;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    padding-top: 115px;
+
+}
+.banner-info .info-button{
+    padding: 8px 12px;
+    font-weight: 500;
+    color: #469165;
+    border: none;
+    border-radius: 20px;
+}
+.banner-info .info-title{
+    max-width: 770px;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+.banner-info .info-title p{ 
+    font-size: 72px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.banner-info .info-title span{
+    color: #30B868
+} 
+.banner-info .info-text{
+    max-width: 770px;
+    margin: 0 auto;
+    /* line-height: 24px; */
+    /* padding-bottom: 32px; */
+}
+.banner-info .info-text p{
+    padding-bottom: 32px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 180px;
+}
+.button-container .start{
+    padding: 16.5px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.button-container .works{
+    background-color:transparent;
+    padding: 16px 16px 16px 46px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF; 
+    border-radius: 5px;
+}
