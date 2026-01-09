@@ -9,6 +9,8 @@
     padding: 12px 16px;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
 
 }
 header{
@@ -42,6 +44,10 @@ nav .menu a{
     color: #000000;
     font-weight: 500;
 }
+.nav-container .btn:hover{
+    background-color: #1f5620;
+    color: #FFFFFF;
+}
 .banner-container{
     width: 100%;
     /* max-width: 1600px; */
@@ -51,6 +57,7 @@ nav .menu a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .banner-container .banner-info{
     width: 85%;
     max-width: 1360px;
@@ -61,12 +68,23 @@ nav .menu a{
 
 }
 .banner-info .info-button{
-    padding: 8px 12px;
-    font-weight: 500;
+    padding: 10px 13px;
+    font-size: 16px;
+    font-weight: 600;
     color: #469165;
     border: none;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin: 0 auto;
+    cursor: ;
 }
+.banner-info .info-button:hover{
+    background-color: #7eb193;
+    color:#FFFFFF;
+}
+
 .banner-info .info-title{
     max-width: 770px;
     /* border: 1px solid white; */
@@ -108,13 +126,26 @@ nav .menu a{
     border-radius: 5px;
     font-size: 16px;
     font-weight: 600;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
 }
+
 .button-container .works{
     background-color:transparent;
-    padding: 16px 16px 16px 46px;
+    padding: 16px 16px 16px 16px;
     color: #FFFFFF;
     border: 1px solid #FFFFFF; 
     border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.button-container .works:hover{
+    background-color: #01203e;
+    color: #FFFFFF;
 }
 #structure{
     padding-top: 75px;
@@ -148,14 +179,9 @@ nav .menu a{
     border-radius: 8px;
     /* border: 1px solid black; */
     padding: 70px 24px 125px 24px;
-    box-shadow:  0 6px 20px 0 #8d979f;
+    box-shadow:  0px 6px 10px 0 #bfc1c3;
 }
-/* .structure-box .structure-card img{
-    background-color: #F95555;
-    border-radius: 100%;
-    max-width: 60px;
-    max-height: 60px;
-} */
+
 .structure-card .image{
     background-color: red;
     max-width: 60px;
@@ -214,15 +240,10 @@ nav .menu a{
     padding-top: 16px;
     line-height: 20px;
 }
-/* .brain-content  h4 .fa-solid fa-circle-check{
-    color: green;
-    padding-top: 50px;
-} */
+
 
 .brain-text{
-    display: flex;
-    gap: 6px;
-    
+    padding-top: 40px;
 }
 .brain-text ul li{
     list-style: none;
@@ -231,6 +252,16 @@ nav .menu a{
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
+}
+.brain-text .text{
+    display: flex;
+    gap: 5px;
+    padding-top: 16px;
+}
+.brain-text .text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
 }
 #ready{
 
@@ -259,10 +290,29 @@ nav .menu a{
     color: #627382;
     padding-bottom: 24px;
 }
+
 .ready-container .text p{
     padding-top: 20px;
     color: #627382;
     padding-bottom: 80px;
+}
+.ready-title .button{
+     background-color: #469165;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.ready-title .button:hover{
+    background-color: #1f5620;
+    color: #FFFFFF;
+
 }
 footer{
     width: auto;
@@ -305,6 +355,7 @@ footer .footer-text{
     padding-top: 80px;
     text-align: center;
 }
+
 .footer-text p{
     font-size: 16px;
     padding-top: 30px;
