@@ -74,7 +74,7 @@ nav .menu a{
     padding-top: 16px;
 }
 
-.banner-info .info-title p{ 
+.banner-info .info-title h1{ 
     font-size: 72px;
     font-weight: 700;
     color: #FFFFFF;
@@ -116,3 +116,70 @@ nav .menu a{
     border: 1px solid #FFFFFF; 
     border-radius: 5px;
 }
+#structure{
+    padding-top: 75px;
+}
+#structure .structure-container{
+    width: 71%;
+    max-width: 1360;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid black; */
+    
+}
+.structure-container .structure-title h1{
+    font-size:48px;
+    font-weight: 700;
+    color: #001931;
+}
+.structure-container .structure-title p{
+    font-size: 16px;
+    color:#627382;
+    line-height: px;
+}
+#structure .structure-container .structure-box{
+    display: flex;
+    gap: 24px;
+    padding-top:44px;
+}
+.structure-box .structure-card{
+    max-width: 322px;
+    max-height:300px;
+    border-radius: 8px;
+    /* border: 1px solid black; */
+    padding: 70px 24px 125px 24px;
+    box-shadow:  0 6px 20px 0 #8d979f;
+}
+/* .structure-box .structure-card img{
+    background-color: #F95555;
+    border-radius: 100%;
+    max-width: 60px;
+    max-height: 60px;
+} */
+.structure-card .image{
+    background-color: red;
+    max-width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+.structure-card h3{
+    padding-top: 16px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.structure-card p{
+    font-size: 16px;
+    color: #627382;
+    padding-top: 16px;
+    line-height: 20px;
+}
+
+
+
+
+
+
