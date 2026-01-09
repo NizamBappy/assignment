@@ -264,6 +264,54 @@ nav .menu a{
     color: #627382;
     padding-bottom: 80px;
 }
+footer{
+    width: auto;
+    height: 348px;
+    background-color: #001931;
+}
+footer .footer-container{
+    width: 85%;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+.footer-container .logo img{
+    max-width: 139px;
+    max-height: 60px;
+}
+.footer-container .social {
+    padding-right: 102px;
+    
+}
+.social p{
+    font-size: 20;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.social .icon{
+    display: flex;
+    gap: 16px;
+    padding-top: 16px;
+}
+footer .footer-text{
+    width: 85%;
+    max-width: 1360;
+    margin: 0 auto;
+    padding-top: 80px;
+    text-align: center;
+}
+.footer-text p{
+    font-size: 16px;
+    padding-top: 30px;
+    color: #FAFAFA;
+    line-height: 24px;
+}
+
 
 
 
