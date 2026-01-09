@@ -177,7 +177,61 @@ nav .menu a{
     padding-top: 16px;
     line-height: 20px;
 }
+#brain{
+    /* border: 1px solid black; */
 
+}
+#brain .brain-container{
+    width: 85%;
+    max-width: 1360px;
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 60px;
+    margin: 120px auto;
+}
+.brain-container img{
+    max-width: 600px;
+}
+.brain-title{
+    max-width: 600px;
+    /* border: 1px solid black; */
+    margin-top: 102px;
+}
+#brain .brain-content .brain-title h5{
+
+    font-size: 16px;
+    font-weight:500;
+    color: #469165;
+    line-height: 24px;
+}
+.brain-content .brain-title h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.brain-content .brain-title p{
+    color: #627382;
+    font-size: 16px;
+    padding-top: 16px;
+    line-height: 20px;
+}
+/* .brain-content  h4 .fa-solid fa-circle-check{
+    color: green;
+    padding-top: 50px;
+} */
+
+.brain-text{
+    display: flex;
+    gap: 6px;
+    
+}
+.brain-text ul li{
+    list-style: none;
+}
+.brain-text h3{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
 
 
 
