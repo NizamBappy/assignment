@@ -130,7 +130,10 @@ nav .menu a{
     gap: 10px;
     cursor: pointer;
 }
-
+.button-container .start:hover{
+    background-color: #1f5620;
+    color: #FFFFFF;
+}
 .button-container .works{
     background-color:transparent;
     padding: 16px 16px 16px 16px;
